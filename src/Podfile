@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+
+link_with 'PandaMarket', 'PandaMarketTests'
+
+pod "AFNetworking", "~> 2.0"

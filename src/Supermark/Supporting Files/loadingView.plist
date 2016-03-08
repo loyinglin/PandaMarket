@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>loadingView1.png</string>
+	<string>loadingView2.png</string>
+	<string>loadingView3.png</string>
+	<string>loadingView4.png</string>
+	<string>loadingView5.png</string>
+	<string>loadingView6.png</string>
+	<string>loadingView7.png</string>
+	<string>loadingView8.png</string>
+	<string>loadingView9.png</string>
+	<string>loadingView10.png</string>
+	<string>loadingView11.png</string>
+</array>
+</plist>

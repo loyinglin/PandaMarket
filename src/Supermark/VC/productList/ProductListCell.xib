@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="Vpj-DM-Rvq" customClass="ProductListCell">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vtg-Mg-evD">
+                        <rect key="frame" x="0.0" y="0.0" width="120" height="150"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bb8-oD-3c3" customClass="DetailGoodsView">
+                                <rect key="frame" x="10" y="10" width="100" height="130"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bb8-oD-3c3" secondAttribute="trailing" constant="10" id="0so-cM-9Xs"/>
+                            <constraint firstItem="bb8-oD-3c3" firstAttribute="leading" secondItem="Vtg-Mg-evD" secondAttribute="leading" constant="10" id="8oB-wf-BbK"/>
+                            <constraint firstAttribute="bottom" secondItem="bb8-oD-3c3" secondAttribute="bottom" constant="10" id="DyM-bh-aqr"/>
+                            <constraint firstItem="bb8-oD-3c3" firstAttribute="top" secondItem="Vtg-Mg-evD" secondAttribute="top" constant="10" id="zMl-2n-h4i"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Vtg-Mg-evD" firstAttribute="top" secondItem="Vpj-DM-Rvq" secondAttribute="top" id="6jw-tu-pQA"/>
+                <constraint firstAttribute="trailing" secondItem="Vtg-Mg-evD" secondAttribute="trailing" id="F2B-yp-2R7"/>
+                <constraint firstItem="Vtg-Mg-evD" firstAttribute="leading" secondItem="Vpj-DM-Rvq" secondAttribute="leading" id="bC1-2Y-iPc"/>
+                <constraint firstAttribute="bottom" secondItem="Vtg-Mg-evD" secondAttribute="bottom" id="pzD-bT-XJN"/>
+            </constraints>
+            <size key="customSize" width="154" height="108"/>
+            <connections>
+                <outlet property="detail" destination="bb8-oD-3c3" id="KPd-gf-gWE"/>
+            </connections>
+            <point key="canvasLocation" x="233" y="-12"/>
+        </collectionViewCell>
+    </objects>
+</document>
