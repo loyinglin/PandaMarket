@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8AB1BF0C2C554D531DF21991DBEE5F8378B2D9B5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F167E483C7830CB8AAA16F293586024D95BDDA99" : 9223372036854775807,
+    "8AB1BF0C2C554D531DF21991DBEE5F8378B2D9B5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8A6A656F-085B-497C-BE51-8D03779D5F56",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F167E483C7830CB8AAA16F293586024D95BDDA99" : "..\/..",
+    "8AB1BF0C2C554D531DF21991DBEE5F8378B2D9B5" : "ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PandaMarket",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "src\/PandaMarket.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/loyinglin\/PandaMarket.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AB1BF0C2C554D531DF21991DBEE5F8378B2D9B5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/52.76.9.104\/Astone\/cshop_project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F167E483C7830CB8AAA16F293586024D95BDDA99"
+    }
+  ]
+}
